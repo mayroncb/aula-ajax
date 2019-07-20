@@ -48,3 +48,21 @@ function letra()
 	div.innerHTML = letra.toUpperCase() + resto.toLowerCase();
 
 }
+
+function reverso()
+{
+	var div = document.getElementById("texto");
+	var input = document.getElementById("valor");
+
+	
+	var valor = input.value;
+	var reverso = "";
+	var tam = input.value.length;
+	
+	for (var i = 0; i < tam; i++)
+	{
+		reverso = valor[i] + reverso;
+	}
+	div.innerHTML = reverso ;
+
+}
