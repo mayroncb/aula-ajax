@@ -1,0 +1,62 @@
+<html>
+
+	<head>
+		<meta charset="utf8" />
+		
+		<title>Aula 3 - AJAX </title>
+		
+		<style>
+			#visor{
+				border: 1px solid;
+				padding: 6px;
+				width: 200px;
+				text-align: right;
+				background-color: silver;
+				font-family: monospace;
+				font-size: large;
+				margin: 10px 0;
+			}
+		</style>
+		
+		<script src="calc.js"></script>
+		
+	</head>
+	
+	<body>
+		<h1>Calculadora</h1>
+		
+		
+		<div id="visor"></div>
+
+		<input type="hidden" id="n1" value="">
+		
+		<div>
+			<button onClick="soma()">+</button>
+			<button onClick="sub()">-</button>
+			<button onClick="div()">/</button>
+			<button onClick="mult()">*</button>
+			<button onClick="percent()">%</button>
+
+		</div>
+		<div>
+			<button onClick="add(7)">7</button>
+			<button onClick="add(8)">8</button>
+			<button onClick="add(9)">9</button>			
+		</div>
+		<div>
+			<button onClick="add(4)">4</button>
+			<button onClick="add(5)">5</button>
+			<button onClick="add(6)">6</button>			
+		</div>
+		<div>
+			<button onClick="add(1)">1</button>
+			<button onClick="add(2)">2</button>
+			<button onClick="add(3)">3</button>			
+		</div>
+		<div>
+			<button onClick="add(0)">0</button>
+			
+		</div>
+	</body>
+
+</html>
