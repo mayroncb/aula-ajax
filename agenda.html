@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Agenda</title>
+        <style>
+        table{
+            border: 1px solid;
+            margin-top: 20px;
+            border-collapse: collapse;
+
+        }
+
+        td, th{
+            padding: 4px;
+            border: 1px solid;
+        }
+
+        thead{
+            background-color: cadetblue;
+        }
+
+        fieldset div {
+            margin: 5px 0;
+        }
+        
+        label{
+            width: 100px;
+            display: inline-block
+        }
+
+        fieldset{
+            width: 450px;
+        }
+        
+        </style>
+        <script src='jquery-3.4.1.min.js'></script>
+        <script src="agenda.js"></script>
+    </head>
+
+    <body>
+
+        <h1>Agenda</h1>
+
+        <fieldset>
+
+            <legend>Cadastro de Alunos</legend>
+
+            <div>
+                <label>Nome</label>
+                <input type="text"/>
+            </div>
+            
+            <div>
+                <label>Email</label>
+                <input type="text"/>
+            </div>
+            
+            <div>
+                <label>Telefone</label>
+                <input type="text"/>
+            </div>
+            
+            <div>
+                <label>Sexo</label>
+                <input type="radio" value="M" name="sexo"/>Masculino
+                <input type="radio" value="F" name="sexo"/>Feminino            
+            </div>
+
+            <button>Cadastrar</button>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>Sexo</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                        <td>Maria da Silva</td>
+                        <td>maria@mail.com</td>
+                        <td>(21)2233-9900</td>
+                        <td>Feminino</td>
+                </tbody>
+
+            </table>
+
+        </fieldset>
+        
+    </body>
+</html>
