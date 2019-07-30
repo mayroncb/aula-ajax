@@ -42,6 +42,9 @@
             padding: 3px;
             background-color: lightsalmon;
         }
+        .delete{
+            color: red;
+        }
         </style>
         
     </head>
@@ -58,7 +61,7 @@
                 <input type="text" id="nome" class="input" name="Nome"/>
             </div>
 
-            <div class="erro">
+            <div>
                 <label>Email</label>
                 <input type="text" id="email" class="input" name="Email" />
             </div>
@@ -85,6 +88,7 @@
                     <th>Email</th>
                     <th>Telefone</th>
                     <th>Sexo</th>
+                    <th>Ações</th>
                 </tr>
             </thead>
 
@@ -94,6 +98,7 @@
                     <td>maria@abc.com.br</td>
                     <td>(11)2222-3333</td>
                     <td>Feminino</td>
+                    <td> <button class="delete">[X]</button></td>
                 </tr>
             </tbody>
 
